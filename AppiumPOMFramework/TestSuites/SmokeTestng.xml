@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="JsonData" />
+		</run>
+	</groups>
+	
+	<listeners>
+		<listener class-name="org.shivamani.Utils.Listners" />
+	</listeners>
+	
+	<test thread-count="5" name="SmokeTest">
+		<classes>
+			<class name="org.AppiumPOMFramework.Ecommerence_App" />
+		</classes>
+	</test> <!-- SmokeTest -->
+	<test thread-count="5" name="SmokeTest">
+		<classes>
+			<class name="org.AppiumPOMFramework.Ecommerence_App2" />
+		</classes>
+	</test> <!-- SmokeTest -->
+	<test thread-count="5" name="SmokeTest">
+		<classes>
+			<class name="org.AppiumPOMFramework.Page1" />
+		</classes>
+	</test> <!-- SmokeTest -->
+	<test thread-count="5" name="SmokeTest">
+		<classes>
+			<class name="org.TestUtils.baseTest" />
+		</classes>
+	</test> <!-- SmokeTest -->
+</suite> <!-- Suite -->

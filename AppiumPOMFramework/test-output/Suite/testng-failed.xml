@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.shivamani.Utils.Listners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.AppiumPOMFramework.Page1">
+        <methods>
+          <include name="configureAppium"/>
+          <include name="loginPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.AppiumPOMFramework.Page1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
