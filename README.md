@@ -7,4 +7,4 @@
 - Xcode used for iOS devices and Emulators.
 
 
-# Thanks. HAPPY LEARNING 
+# HAPPY LEARNING 
